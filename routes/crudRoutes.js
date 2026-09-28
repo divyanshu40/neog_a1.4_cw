@@ -21,4 +21,4 @@ router.post("/movie/update/:id", crudControllers.updateMovieByIdController);
 // route to delete movie by id
 router.delete("/movie/delete/:id", crudControllers.deleteMovieController);
 
-module.export = router;
+module.exports = router;

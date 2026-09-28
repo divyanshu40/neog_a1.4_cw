@@ -36,4 +36,4 @@ async function deleteMovieById(id) {
     return deletedMovie;
 }
 
-modules.exports = { addMovies, addMovie, readAllMovies, getMovieById, updateMovieById, deleteMovieById };
+module.exports = { addMovies, addMovie, readAllMovies, getMovieById, updateMovieById, deleteMovieById };
