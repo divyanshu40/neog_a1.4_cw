@@ -20,4 +20,4 @@ initializeDatabase(mongoUri).then(() => {
     console.log(error);
 });
 
-app.use("/api/v1", crudRoutes);
+app.use("/app", crudRoutes);
